@@ -1,15 +1,44 @@
 .robot {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.head, .left-arm, .right-arm, .torso, .right-leg, .left-leg {
-    background-color: #5f93e8;
+
+.head,
+.left-arm,
+.right-arm,
+.torso,
+.right-leg,
+.left-leg {
+  background-color: #5f93e8;
 }
 
 .head {
-    width: 200px;
-    height: 150px;
-    margin: 0 auto;
-    border-radius: 200px 200px 0 0;
-    margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 200px 200px 0 0;
+  margin-bottom: 10px;
+}
+
+.eye {
+    display: flex;
+}
+
+.left-eye, .right-eye {
+    width: 20px;
+    height: 20px;
+    border: 15px;
+    background-color: white;
+}
+
+.left-eye {
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.right-eye {
+    position: relative;
+    top: 100px;
+    left: 120px;
 }
