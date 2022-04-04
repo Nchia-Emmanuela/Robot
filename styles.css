@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
 }
-
-body {
+.head, .left-arm, .right-arm, .torso, .right-leg, .left-leg {
     background-color: #5f93e8;
 }
 
