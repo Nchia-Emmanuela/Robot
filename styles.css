@@ -1,3 +1,4 @@
+/* styles for container carrying all robot parts */
 .robot {
   display: flex;
   justify-content: center;
@@ -20,6 +21,7 @@
   margin-bottom: 10px;
 }
 
+/* stylesfor robots eye */
 .eye {
     display: flex;
 }
