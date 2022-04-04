@@ -42,3 +42,8 @@
     top: 100px;
     left: 120px;
 }
+
+.head:hover {
+    width: 300px;
+    transition: 1s ease-in-out;
+}
