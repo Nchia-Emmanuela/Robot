@@ -1,6 +1,7 @@
 /* styles for container carrying all robot parts */
 .robot {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
