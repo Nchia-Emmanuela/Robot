@@ -90,3 +90,23 @@
     margin: 0 auto;
     display: flex;
 }
+
+/* style for legs */
+.left-leg,
+.right-leg {
+    width: 40px;
+    height: 120px;
+    border-radius: 0 0 100px 100px;
+}
+
+.left-leg {
+    margin-left: 30px;
+}
+
+.left-leg:hover {
+    transform: rotate(20deg);
+}
+
+.right-leg {
+    margin-right: 30px;
+}
