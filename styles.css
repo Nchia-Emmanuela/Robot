@@ -101,13 +101,14 @@
 }
 
 .left-leg {
-    margin-left: 30px;
+    margin-left: 45px;
 }
 
 .left-leg:hover {
+    transition: 0.6s;
     transform: rotate(20deg);
 }
 
 .right-leg {
-    margin-right: 30px;
+    margin-left: 30px;
 }
