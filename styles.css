@@ -27,7 +27,7 @@
 .left-eye, .right-eye {
     width: 20px;
     height: 20px;
-    border: 15px;
+    border-radius: 15px;
     background-color: white;
 }
 
@@ -46,4 +46,37 @@
 .head:hover {
     width: 300px;
     transition: 1s ease-in-out;
+}
+
+/* styling container carrying robots arms and torso */
+.upper-body {
+    width: 300px;
+    height: 150px;
+    display: flex;
+}
+
+/* styling robot arms */
+.left-arm,
+.right-arm {
+    width: 40px;
+    height: 125px;
+    border-radius: 100px;
+}
+
+/* specific style for right arm */
+
+.right-arm {
+    margin-left: 10px;
+}
+
+/* specific style for left arm */
+.left-arm {
+    margin-right: 10px;
+}
+
+.torso {
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 50px 50px;
+
 }
