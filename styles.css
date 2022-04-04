@@ -82,3 +82,11 @@
     border-radius: 0 0 50px 50px;
 
 }
+
+/* styles for container containing robot legs */
+.lower-body {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
